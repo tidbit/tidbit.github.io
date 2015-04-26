@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tidbit</title>
+    <meta charset="utf-8" />
+		<style type="text/css" media="screen">
+body { 
+	background: #FFFBF7;
+	color: #424242;
+	font-family: "Avenir Next","Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 100%;
+	line-height: 1.5;
+	margin: 0;
+	max-width: 800px;
+	padding: 25px 100px;
+	text-align: center;
+}
+
+header {
+	margin: 0 auto;
+	max-width: 500px;
+}
+
+
+input, button {
+	border: 2px solid	#8AE8D3;
+	border-radius: 4px;
+	font-weight: bold;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+	outline-color: #8AE8D3;
+	padding: .5em 1em;
+	position: relative;
+	box-sizing: border-box;
+}
+
+input[type="email"] {
+	background: transparent;
+	color: #424242;
+	max-width: 100%;
+}
+
+.button {
+	background: transparent;
+	color: #8AE8D3;
+	cursor: pointer;
+	letter-spacing: 0.08em;
+	text-transform: uppercase;
+	padding-right: 2.25em;
+}
+
+.button:hover {
+	background: #8AE8D3;
+	color: #FFFBF7;
+}
+
+.button .icon {
+	position: absolute;
+	fill: #8AE8D3;
+	width: auto;
+	max-height: 100%;
+	top: .5em;
+	right: .5em; 
+}
+
+.button:hover .icon {
+	opacity: 1;
+	fill: #FFFBF7;
+}
+
+
+		</style>
+</head>
+<body>
+
+	<header>
+		<h1 title="tidbit - cool stuff coming soon">
+
+			<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+			viewBox="0 0 500 500" enable-background="new 0 0 500 500" xml:space="preserve">
+				<g id="tidbit-icon">
+				<polygon fill="#8AE8D3" points="250,274 213.2,295.2 250,316.4 286.8,295.2 	"/>
+				<polygon fill="#8AE8D3" points="206.7,348.9 243.5,370.1 243.5,327.7 206.7,306.4 	"/>
+				<polygon fill="#8AE8D3" points="256.5,370.1 293.3,348.9 293.3,306.4 256.5,327.7 	"/>
+				<path fill="#8AE8D3" d="M351.2,252.5l-90-52c-6.2-3.6-16.3-3.6-22.5,0l-90,52c-6.2,3.6-11.2,12.3-11.2,19.5v103.9
+				c0,7.1,5.1,15.9,11.2,19.5l90,52c6.2,3.6,16.3,3.6,22.5,0l90-52c6.2-3.6,11.2-12.3,11.2-19.5V272
+				C362.5,264.8,357.4,256,351.2,252.5z M306.2,349.9c0,3.6-2.5,8-5.6,9.7l-45,26c-1.5,0.9-3.6,1.3-5.6,1.3s-4.1-0.4-5.6-1.3l-45-26
+				c-3.1-1.8-5.6-6.2-5.6-9.7v-52c0-3.6,2.5-8,5.6-9.7l45-26c1.5-0.9,3.6-1.3,5.6-1.3s4.1,0.4,5.6,1.3l45,26c3.1,1.8,5.6,6.2,5.6,9.7
+				V349.9z"/>
+				</g>
+				<g id="tidbit-text">
+				<path fill="#8AE8D3" d="M357.3,99.3c0-2.2,1.1-3.2,3.4-3.3c3.2,0,6.4,0,9.6,0c1.1,0,2.2,0,3.4,0c0-5.7,0-11.1,0-16.5
+				c0-2.6,1.1-3.6,3.6-3.5c3.6,0.1,7.1,0.1,10.7,0.1c2.8,0,3.8,1,3.8,3.8c0,4.5,0,9.1,0,13.6c0,0.8,0,1.6,0,2.6c1.7,0,3.2,0,4.6,0
+				c2.2,0,3.3,1,3.3,3.1c0.1,3.3,0.1,6.6,0,9.9c-0.1,2.2-1.1,3-3.3,3.1c-1.5,0-3,0-4.6,0c0,1.8,0,3.5,0,5.3c0,4.1,0,8.1,0,12.2
+				c0,7.9,0,15.9,0,23.8c0,3-0.9,3.9-3.8,3.9c-3.4,0-6.9,0-10.3,0c-3.2,0-4.1-0.9-4.1-4.2c0-4.7,0-9.4,0-14.2c0-0.6,0-1.2,0-1.8l0,0
+				c0-2.2,0-4.3,0-6.5c0-2.9,0-5.8,0-8.6c0-3.3,0-6.5,0-9.9c-4.5,0-8.7,0-13,0c-2.3,0-3.4-1-3.4-3.2
+				C357.3,105.6,357.3,102.5,357.3,99.3z"/>
+				<g>
+				<path fill="#8AE8D3" d="M348.4,126.6c0-8.8,0-17.6,0-26.4c0-3.2-1-4.2-4.3-4.2c-3.3,0-6.6,0-10,0c-3.5,0-4.4,0.8-4.4,4.4
+				c0,12.8,0,25.6,0,38.5c0,4.7,0,9.4,0,14.2c0,3.3,0.9,4.2,4.2,4.2c3.5,0,7,0,10.5,0c2.9,0,3.9-1,3.9-3.9
+				C348.5,144.4,348.4,135.5,348.4,126.6z"/>
+				<path fill="#8AE8D3" d="M339.4,81.1c5.8,0,10.3-4.6,10.4-10.5c0-6-4.6-10.6-10.4-10.6c-6,0-10.7,4.8-10.6,10.7
+				C328.8,76.5,333.5,81.1,339.4,81.1z"/>
+				</g>
+				<path fill="#8AE8D3" d="M270.2,149.7c5.9,6.1,12.8,9.3,21,9.1c10.8-0.3,18.7-5.8,23.9-14.9c6.1-10.7,6.3-22,1-33.1
+				c-6.1-12.9-20.1-19-34.4-15.5c-2,0.5-3.9,1.1-6,1.7c0-0.9,0-1.7,0-2.4c0-13.4,0-26.8,0-40.2c0-3.7-0.8-4.5-4.5-4.5
+				c-3.6,0-7.2,0-10.7,0c-2.4,0-3.5,1.1-3.6,3.5c0,0.5,0,1,0,1.5c0,32.4,0,64.9,0,97.3c0,0.6,0,1.2,0,1.7c0.2,2.2,1.3,3.2,3.5,3.3
+				c1.5,0,3.1-0.1,4.6,0c2,0.1,3.1-0.8,3.7-2.7C269,153.1,269.6,151.5,270.2,149.7z M275.1,123.7c0-2.6-0.1-5.2,0.1-7.8
+				c0-0.7,0.6-1.8,1.2-2c2.1-0.9,4.4-1.8,6.6-2.3c3.9-0.8,7.7-0.7,11.3,1.4c8.7,5.1,10.3,17.9,3.3,25.2c-3.9,4-9.8,5.3-14.8,3.3
+				c-4.7-1.9-7.7-6.7-7.7-12.1C275.1,127.4,275.1,125.5,275.1,123.7z"/>
+				<path fill="#8AE8D3" d="M229.8,149.7c-5.9,6.1-12.8,9.3-21,9.1c-10.8-0.3-18.7-5.8-23.9-14.9c-6.1-10.7-6.3-22-1-33.1
+				c6.1-12.9,20.1-19,34.4-15.5c2,0.5,3.9,1.1,6,1.7c0-0.9,0-1.7,0-2.4c0-13.4,0-26.8,0-40.2c0-3.7,0.8-4.5,4.5-4.5
+				c3.6,0,7.2,0,10.7,0c2.4,0,3.5,1.1,3.6,3.5c0,0.5,0,1,0,1.5c0,32.4,0,64.9,0,97.3c0,0.6,0,1.2,0,1.7c-0.2,2.2-1.3,3.2-3.5,3.3
+				c-1.5,0-3.1-0.1-4.6,0c-2,0.1-3.1-0.8-3.7-2.7C231,153.1,230.4,151.5,229.8,149.7z M224.9,123.7c0-2.6,0.1-5.2-0.1-7.8
+				c0-0.7-0.6-1.8-1.2-2c-2.1-0.9-4.4-1.8-6.6-2.3c-3.9-0.8-7.7-0.7-11.3,1.4c-8.7,5.1-10.3,17.9-3.3,25.2c3.9,4,9.8,5.3,14.8,3.3
+				c4.7-1.9,7.7-6.7,7.7-12.1C224.9,127.4,224.9,125.5,224.9,123.7z"/>
+				<g>
+				<path fill="#8AE8D3" d="M151.5,126.6c0-8.8,0-17.6,0-26.4c0-3.2,1-4.2,4.3-4.2c3.3,0,6.6,0,10,0c3.5,0,4.4,0.8,4.4,4.4
+				c0,12.8,0,25.6,0,38.5c0,4.7,0,9.4,0,14.2c0,3.3-0.9,4.2-4.2,4.2c-3.5,0-7,0-10.5,0c-2.9,0-3.9-1-3.9-3.9
+				C151.5,144.4,151.5,135.5,151.5,126.6z"/>
+				<path fill="#8AE8D3" d="M160.6,81.1c-5.8,0-10.3-4.6-10.4-10.5c0-6,4.6-10.6,10.4-10.6c6,0,10.7,4.8,10.6,10.7
+				C171.2,76.5,166.5,81.1,160.6,81.1z"/>
+				</g>
+				<path fill="#8AE8D3" d="M142.7,99.3c0-2.2-1.1-3.2-3.4-3.3c-3.2,0-6.4,0-9.6,0c-1.1,0-2.2,0-3.4,0c0-5.7,0-11.1,0-16.5
+				c0-2.6-1.1-3.6-3.6-3.5c-3.6,0.1-7.1,0.1-10.7,0.1c-2.8,0-3.8,1-3.8,3.8c0,4.5,0,9.1,0,13.6c0,0.8,0,1.6,0,2.6c-1.7,0-3.2,0-4.6,0
+				c-2.2,0-3.3,1-3.3,3.1c-0.1,3.3-0.1,6.6,0,9.9c0.1,2.2,1.1,3,3.3,3.1c1.5,0,3,0,4.6,0c0,1.8,0,3.5,0,5.3c0,4.1,0,8.1,0,12.2
+				c0,7.9,0,15.9,0,23.8c0,3,0.9,3.9,3.8,3.9c3.4,0,6.9,0,10.3,0c3.2,0,4.1-0.9,4.1-4.2c0-4.7,0-9.4,0-14.2c0-0.6,0-1.2,0-1.8l0,0
+				c0-2.2,0-4.3,0-6.5c0-2.9,0-5.8,0-8.6c0-3.3,0-6.5,0-9.9c4.5,0,8.7,0,13,0c2.3,0,3.4-1,3.4-3.2C142.7,105.6,142.7,102.5,142.7,99.3
+				z"/>
+				</g>
+			</svg>
+
+		</h1>
+	</header>
+
+	<div id="mailer-signup">
+		<div id="mc_embed_signup">
+			<h4>SUBSCRIBE FOR UPDATES!</h4>
+			<form action="//mailchimp.us2.list-manage.com/subscribe/post?u=676a09c1667e5280e3ce65698&amp;id=47871e50d9" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate>
+				<div id="mc_embed_signup_scroll">
+					<input type="email" value="" name="EMAIL" class="email" id="mce-EMAIL" placeholder="email address" required>
+					<div style="position: absolute; left: -5000px;"><input type="text" name="b_676a09c1667e5280e3ce65698_47871e50d9" tabindex="-1" value=""></div>
+					<button type="submit" name=subscribe" id="mc-embedded-subscribe" class="button">
+						Subscribe 
+						<span class="icon">
+							<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Laag_1" x="0px" y="0px" viewBox="5.0 -10.0 100.0 135.0" enable-background="new 0 0 100 100" xml:space="preserve" height="20px" width="20px">
+								<path d="M92.3,13.6C90.6,14.3,5.7,44.2,4.1,44.8c-1.4,0.5-1.7,1.7,0,2.4c2,0.8,19,7.6,19,7.6h0l11.3,4.5  c0,0,54.2-39.8,54.9-40.3c0.7-0.5-43.7,44.6-43.7,44.6l6.2,3.1v0c0,0,23.3,12.5,24.9,13.4c1.5,0.8,3.3,0.1,3.8-1.7  c0.5-2.1,14.2-61.3,14.5-62.6C95.2,14.1,94.1,13,92.3,13.6z M33.7,90.2c0,1.2,0.7,1.6,1.7,0.7c1.3-1.1,18.2-18.5,18.2-18.5  l-19.7-8.8L33.7,90.2z"/>
+								<!-- Created by Joris Hoogendoorn -->
+							</svg>
+						</span>
+					</button>
+				</div>
+			</form>
+		</div>
+	</div>
+
+	<footer>
+		<p>&copy;2015 tidbit, llc</p>
+	</footer>
+
+
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-62216069-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</body>
+</html>
